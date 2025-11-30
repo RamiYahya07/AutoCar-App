@@ -6,12 +6,14 @@ class CustomButton extends StatelessWidget {
   final String title;
   final VoidCallback onTap;
   final Color? color;
+  final Color? textColor;
 
   const CustomButton({
     super.key,
     required this.title,
     required this.onTap,
     this.color,
+    this.textColor,
   });
 
   @override
@@ -49,6 +51,7 @@ class CustomButton extends StatelessWidget {
     required String title,
     required VoidCallback onTap,
     Color color = AppColors.kPrimaryColor,
+    Color textColor = Colors.white,
   }) {
     return ElevatedButton(
       onPressed: onTap,
@@ -62,7 +65,11 @@ class CustomButton extends StatelessWidget {
       ),
       child: Text(
         title,
-        style: TextStyle(fontSize: 18.sp, fontWeight: FontWeight.bold),
+        style: TextStyle(
+          fontSize: 18.sp,
+          fontWeight: FontWeight.bold,
+          color: textColor,
+        ),
       ),
     );
   }

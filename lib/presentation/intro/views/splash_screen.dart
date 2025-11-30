@@ -122,7 +122,7 @@ class _SplashScreenState extends State<SplashScreen>
                   color: Colors.white,
                   title: "Get Started",
                   onTap: () {
-                    context.go(AppRoutes.home);
+                    context.go(AppRoutes.signIn);
                   },
                 ),
               ),
