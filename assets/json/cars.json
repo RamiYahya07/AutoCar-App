@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Toyota Camry",
+    "model": "2023",
+    "price": "32,000",
+    "image": "assets/images/car1.jpg",
+    "details": {
+      "engine": "2.5L 4-Cylinder",
+      "horsepower": "203 HP",
+      "fuelType": "Gasoline",
+      "transmission": "8-Speed Automatic",
+      "description": "The Toyota Camry 2023 offers a smooth ride with efficient fuel consumption."
+    }
+  },
+  {
+    "id": 2,
+    "name": "BMW 3 Series",
+    "model": "2022",
+    "price": "45,500",
+    "image": "assets/images/car2.jpg",
+    "details": {
+      "engine": "2.0L Turbocharged",
+      "horsepower": "255 HP",
+      "fuelType": "Gasoline",
+      "transmission": "8-Speed Automatic",
+      "description": "A luxury sedan with premium handling, interior quality, and performance."
+    }
+  },
+  {
+    "id": 3,
+    "name": "Tesla Model 3",
+    "model": "2023",
+    "price": "38,000",
+    "image": "assets/images/car1.jpg",
+    "details": {
+      "engine": "Electric Dual Motor",
+      "horsepower": "283 HP",
+      "fuelType": "Electric",
+      "transmission": "Direct Drive",
+      "description": "A fully electric sedan with cutting-edge autopilot technology."
+    }
+  }
+]
