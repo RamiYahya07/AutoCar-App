@@ -119,6 +119,7 @@ class _SplashScreenState extends State<SplashScreen>
               child: SlideTransition(
                 position: _slideButton,
                 child: CustomButton.circularButton(
+                  textColor: AppColors.kPrimaryColor,
                   color: Colors.white,
                   title: "Get Started",
                   onTap: () {
